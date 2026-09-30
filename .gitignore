@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+*.tfplan.json
+.terraform.lock.hcl
+
+# Variable files with potentially sensitive values
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated archives
+*.zip
